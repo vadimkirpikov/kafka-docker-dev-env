@@ -2,12 +2,12 @@
 
 This repository provides a configuration for deploying Apache Kafka and Zookeeper using Docker and Docker Compose.
 
-## Setup and Deployment
+## Setup and deployment
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/vadimkirpikov/kafka-docker-dev-env.git
+   git clone https://github.com/vadimkirpikov/kafka-docker-dev-env
    cd kafka-docker-dev-env
    ```
 
