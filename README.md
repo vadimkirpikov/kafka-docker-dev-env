@@ -28,13 +28,13 @@ This repository provides a configuration for deploying Apache Kafka and Zookeepe
 1. Create a topic:
 
    ```bash
-   docker exec -it kafka kafka-topics --create --topic test_topic --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
+   docker exec -it kafka kafka-topics --create --topic test-topic --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
    ```
 
 2. Send a message:
 
    ```bash
-   docker exec -it kafka kafka-console-producer --topic test_topic --bootstrap-server localhost:9092
+   docker exec -it kafka kafka-console-producer --topic test-topic --bootstrap-server localhost:9092
    ```
 
    Type your message and press `Enter`. To exit the producer, press `Ctrl+C`.
